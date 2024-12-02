@@ -1,0 +1,9 @@
+{
+  "liveSassCompile.settings.formats": [
+    {
+      "savePath": "/assets/css/",
+      "generateMap": false,
+      "format": "expanded"
+    }
+  ]
+}
