@@ -19,18 +19,13 @@
   position: fixed;
   top: -80px;
   padding: 15px 0;
-  -webkit-transition: -webkit-transform 0.8s;
-  transition: -webkit-transform 0.8s;
-  -o-transition: transform 0.8s;
   transition: transform 0.8s;
-  transition: transform 0.8s, -webkit-transform 0.8s;
-  -webkit-transform: translateY(80px);
-  -ms-transform: translateY(80px);
   transform: translateY(80px);
   -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
 }
 .navbar .logo {
+  max-height: 32px;
   padding: 7px 15px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 30px;
@@ -87,7 +82,6 @@
   background: #010105;
   pointer-events: none;
   border-radius: 50%;
-  -webkit-filter: blur(200px);
   filter: blur(200px);
   opacity: 0.7;
 }
@@ -137,7 +131,7 @@
   bottom: 20px;
   background: rgba(255, 255, 255, 0.01);
   -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
   border-radius: 50%;
   z-index: -1;
 }
@@ -163,7 +157,6 @@
   width: 25px;
 }
 .services-sa .item .cont .icon.invert img {
-  -webkit-filter: invert(1);
   filter: invert(1);
 }
 .services-sa .item .cont .text {
@@ -192,8 +185,6 @@
   position: absolute;
   top: 50%;
   left: 0;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
 .marq-sa .item h2 {
@@ -201,15 +192,6 @@
   font-size: 96px;
   line-height: 120px;
   letter-spacing: -4px;
-  background: -webkit-gradient(
-    linear,
-    left top,
-    right top,
-    from(#fff),
-    to(transparent)
-  );
-  background: -webkit-linear-gradient(left, #fff, transparent);
-  background: -o-linear-gradient(left, #fff, transparent);
   background: linear-gradient(to right, #fff, transparent);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -225,15 +207,8 @@
 .work-card .card-item .cont {
   height: 100%;
   padding: 40px 80px 40px 40px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 .work-card .card-item .cont .tag {
@@ -294,7 +269,6 @@
   z-index: 2;
 }
 .testimonials-sa .gl-rate {
-  width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
   border: 1px solid rgba(255, 255, 255, 0.1);
@@ -314,7 +288,7 @@
 }
 .testimonials-sa .gl-rate .cont .stars {
   font-size: 13px;
-  color: #ef2b10;
+  color: #EF2B10;
   margin-left: 10px;
 }
 .testimonials-sa .gl-rate .cont p {
@@ -329,15 +303,8 @@
   background: var(--bg-color);
   padding: 40px;
   border-radius: 10px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   height: 100%;
 }
@@ -346,7 +313,7 @@
 }
 .testimonials-sa .item .rate .stars {
   font-size: 13px;
-  color: #ef2b10;
+  color: #EF2B10;
   margin-left: 10px;
 }
 .testimonials-sa .item .info .img-author {
@@ -377,13 +344,10 @@
   letter-spacing: 1px;
   opacity: 0.7;
 }
-
 .awards-sa .item-line {
   padding: 25px 15px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   position: relative;
-  -webkit-transition: all 0.4s;
-  -o-transition: all 0.4s;
   transition: all 0.4s;
   z-index: 3;
 }
@@ -404,8 +368,6 @@
   width: 100%;
   height: 0;
   background: rgba(255, 255, 255, 0.05);
-  -webkit-transition: all 0.4s;
-  -o-transition: all 0.4s;
   transition: all 0.4s;
   z-index: -1;
 }
@@ -422,11 +384,9 @@
   height: 470px;
   border-radius: 15px;
 }
-
 .blog-sa .item .cont .info a {
   font-size: 14px;
 }
-
 .blog-sa .item .cont .info .date {
   opacity: 0.5;
   margin-left: 5px;
@@ -441,21 +401,12 @@
   border-radius: 30px;
   overflow: hidden;
 }
-
 .contact-sa .info {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   height: 100%;
 }
-
 .contact-sa .contact-form label {
   font-size: 14px;
   margin-bottom: 5px;
@@ -464,7 +415,6 @@
   color: red;
   padding-left: 5px;
 }
-
 .contact-sa .contact-form input,
 .contact-sa .contact-form textarea {
   color: #fff;
@@ -475,7 +425,6 @@
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   font-size: 18px;
 }
-
 .contact-sa .contact-form button {
   background: transparent;
   color: #fff;
@@ -504,8 +453,6 @@
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 50%;
   font-size: 14px;
-  -webkit-transition: all 0.4s;
-  -o-transition: all 0.4s;
   transition: all 0.4s;
 }
 .footer-sa .contact-info .social-icon a:hover {
@@ -536,12 +483,7 @@ body {
   background-color: var(--theme-color);
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   margin: 0;
 }
@@ -624,16 +566,13 @@ p {
 }
 
 .icon.invert img {
-  -webkit-filter: invert(1);
   filter: invert(1);
 }
 
 .butn .icon {
   width: 18px;
 }
-
 .butn:hover .icon.invert img {
-  -webkit-filter: invert(0);
   filter: invert(0);
 }
 
@@ -660,8 +599,6 @@ p {
     bottom: 0;
     right: 0;
     width: 50%;
-    -webkit-transform: translateY(50%);
-    -ms-transform: translateY(50%);
     transform: translateY(50%);
   }
   .header-sa .imgs .circle {
@@ -675,7 +612,6 @@ p {
     background: transparent;
   }
 }
-
 @media screen and (max-width: 768px) {
   .header-sa .caption h1 {
     font-size: 50px;
@@ -683,8 +619,6 @@ p {
   }
   .header-sa .imgs {
     width: 60%;
-    -webkit-transform: translateY(70%);
-    -ms-transform: translateY(70%);
     transform: translateY(70%);
   }
   .header-sa .imgs .cube img {
@@ -696,4 +630,4 @@ p {
   .contact-sa .box {
     padding: 120px 40px;
   }
-}
+}/*# sourceMappingURL=home1-style.css.map */
