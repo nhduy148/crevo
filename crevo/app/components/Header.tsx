@@ -1,6 +1,7 @@
+import Image from 'next/image';
 import React from 'react';
 
-export const Header = () => {
+const Header = () => {
   return (
     <header className='header-sa d-flex align-items-center'>
       <div className='background'></div>
@@ -33,10 +34,20 @@ export const Header = () => {
           <div className='col-lg-6'>
             <div className='imgs'>
               <div className='cube'>
-                <img src='assets/imgs/header/cube.svg' alt='' />
+                <Image
+                  src='/images/header/cube.svg'
+                  alt=''
+                  width={44}
+                  height={44}
+                />
               </div>
               <div className='circle'>
-                <img src='assets/imgs/header/circle-badge.svg' alt='' />
+                <Image
+                  src='/images/header/circle-badge.svg'
+                  alt=''
+                  width={44}
+                  height={44}
+                />
               </div>
             </div>
           </div>
@@ -45,3 +56,5 @@ export const Header = () => {
     </header>
   );
 };
+
+export default Header;

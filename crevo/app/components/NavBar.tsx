@@ -1,0 +1,65 @@
+import Image from 'next/image';
+import Link from 'next/link';
+import React from 'react';
+
+const NavBar = () => {
+  return (
+    <nav className='navbar navbar-expand-lg'>
+      <div className='container'>
+        {/* Logo */}
+        <a className='logo' href='#'>
+          <Image
+            src='/images/Logo-light.svg'
+            alt='logo'
+            width={44}
+            height={44}
+          />
+        </a>
+
+        {/* Nav links */}
+        <div className='collapse navbar-collapse' id='navbarSupportedContent'>
+          <ul className='navbar-nav'>
+            <li className='nav-item'>
+              <Link className='nav-link active' href='/'>
+                Home
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link className='nav-link' href='/about'>
+                Studio
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link className='nav-link' href='./portfolio-cards.html'>
+                Works
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link className='nav-link' href='./blog-grid.html'>
+                News
+              </Link>
+            </li>
+          </ul>
+        </div>
+        <div className='topnav d-flex align-items-center'>
+          <Link href='./contact.html' className='butn butn-rounded'>
+            <div className='d-flex align-items-center'>
+              <span>Contact Us</span>
+              <span className='icon ml-10'>
+                <img
+                  src='./assets/common/imgs/icons/arrow-top-right.svg'
+                  alt=''
+                />
+              </span>
+            </div>
+          </Link>
+          <div className='menu-icon cursor-pointer'>
+            <span className='icon ti-align-right'></span>
+          </div>
+        </div>
+      </div>
+    </nav>
+  );
+};
+
+export default NavBar;

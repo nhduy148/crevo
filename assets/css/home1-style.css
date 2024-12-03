@@ -22,7 +22,7 @@
   transition: transform 0.8s;
   transform: translateY(80px);
   -webkit-backdrop-filter: blur(10px);
-          backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
 }
 .navbar .logo {
   max-width: 124px;
@@ -68,12 +68,12 @@
   height: 100%;
   overflow: hidden;
   pointer-events: none;
-  background-image: url(../imgs/header/g-back.png);
+  background-image: url(/images/header/g-back.png);
   background-size: cover;
   z-index: -1;
 }
 .header-sa .background:before {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   left: -20vw;
@@ -86,7 +86,7 @@
   opacity: 0.7;
 }
 .header-sa .background:after {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   left: 0;
@@ -123,7 +123,7 @@
   z-index: 2;
 }
 .header-sa .imgs .circle:after {
-  content: "";
+  content: '';
   position: absolute;
   top: 20px;
   left: 20px;
@@ -131,7 +131,7 @@
   bottom: 20px;
   background: rgba(255, 255, 255, 0.01);
   -webkit-backdrop-filter: blur(10px);
-          backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
   border-radius: 50%;
   z-index: -1;
 }
@@ -177,7 +177,7 @@
   position: relative;
 }
 .marq-sa .item:after {
-  content: "";
+  content: '';
   width: 12px;
   height: 12px;
   background: #fff;
@@ -254,7 +254,7 @@
   overflow: hidden;
 }
 .testimonials-sa:after {
-  content: "";
+  content: '';
   position: absolute;
   bottom: 0;
   left: 0;
@@ -288,7 +288,7 @@
 }
 .testimonials-sa .gl-rate .cont .stars {
   font-size: 13px;
-  color: #EF2B10;
+  color: #ef2b10;
   margin-left: 10px;
 }
 .testimonials-sa .gl-rate .cont p {
@@ -313,7 +313,7 @@
 }
 .testimonials-sa .item .rate .stars {
   font-size: 13px;
-  color: #EF2B10;
+  color: #ef2b10;
   margin-left: 10px;
 }
 .testimonials-sa .item .info .img-author {
@@ -361,7 +361,7 @@
   height: 100%;
 }
 .awards-sa .item-line:after {
-  content: "";
+  content: '';
   position: absolute;
   bottom: 0;
   left: 0;
@@ -475,7 +475,7 @@
 }
 
 body {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 18px;
   line-height: 28px;
   font-weight: 400;
@@ -548,7 +548,7 @@ p {
   padding-left: 25px;
 }
 .sec-head .sub-head:after {
-  content: "";
+  content: '';
   width: 7px;
   height: 7px;
   background: #fff;
