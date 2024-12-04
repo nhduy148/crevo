@@ -26,12 +26,12 @@ const NavBar = () => {
             </li>
             <li className='nav-item'>
               <Link className='nav-link' href='/about'>
-                Studio
+                About
               </Link>
             </li>
             <li className='nav-item'>
-              <Link className='nav-link' href='./portfolio-cards.html'>
-                Works
+              <Link className='nav-link' href='/projects'>
+                Projects
               </Link>
             </li>
             <li className='nav-item'>
@@ -55,9 +55,6 @@ const NavBar = () => {
               </span>
             </div>
           </Link>
-          <div className='menu-icon cursor-pointer'>
-            <span className='icon ti-align-right'></span>
-          </div>
         </div>
       </div>
     </nav>

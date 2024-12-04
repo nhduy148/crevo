@@ -1,13 +1,13 @@
-import Header from './components/Header';
-import ServicesSection from './components/ServicesSection';
-import IntroSection from './components/IntroSection';
-import MarqueeSection from './components/MarqueeSection';
+import Header from './components/(Home)/HeaderSection';
+import ServicesSection from './components/(Home)/ServicesSection';
+import IntroSection from './components/(Home)/IntroSection';
+import MarqueeSection from './components/(Home)/MarqueeSection';
 import ContactSection from './components/ContactSection';
-import PortfolioSection from './components/PortfolioSection';
-import ClientsSection from './components/ClientsSection';
-import TestimonialsSection from './components/TestimonialsSection';
-import AwardsSections from './components/AwardsSections';
-import BlogSection from './components/BlogSection';
+import ProjectSection from './components/(Home)/ProjectSection';
+import ClientsSection from './components/(Home)/ClientsSection';
+import TestimonialsSection from './components/(Home)/TestimonialsSection';
+import AwardsSections from './components/(Home)/AwardsSections';
+import BlogSection from './components/(Home)/BlogSection';
 
 export default function Home() {
   return (
@@ -16,7 +16,7 @@ export default function Home() {
       <ServicesSection />
       <IntroSection />
       <MarqueeSection />
-      <PortfolioSection />
+      <ProjectSection />
       <ClientsSection />
       <TestimonialsSection />
       <AwardsSections />

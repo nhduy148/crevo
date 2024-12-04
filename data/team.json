@@ -1,0 +1,32 @@
+[
+  {
+    "id": "001",
+    "full_name": "Khai Pham",
+    "title": "Unique visual identity to bring in digital market",
+    "avatar_url": "/assets/imgs/about/team/1.png",
+    "social_networks": [
+      { "platform": "facebook", "url": "facebook.com" },
+      { "platform": "linkedin", "url": "linkedin.com" }
+    ]
+  },
+  {
+    "id": "002",
+    "full_name": "Khai Pham",
+    "title": "Unique visual identity to bring in digital market",
+    "avatar_url": "/assets/imgs/about/team/1.png",
+    "social_networks": [
+      { "platform": "facebook", "url": "facebook.com" },
+      { "platform": "linkedin", "url": "linkedin.com" }
+    ]
+  },
+  {
+    "id": "003",
+    "full_name": "Khai Pham",
+    "title": "Unique visual identity to bring in digital market",
+    "avatar_url": "/assets/imgs/about/team/1.png",
+    "social_networks": [
+      { "platform": "facebook", "url": "facebook.com" },
+      { "platform": "linkedin", "url": "linkedin.com" }
+    ]
+  }
+]

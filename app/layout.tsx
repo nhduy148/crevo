@@ -22,22 +22,34 @@ export default function RootLayout({
     <html lang='en'>
       <head>
         {/* jQuery */}
-        <Script src='/js/jquery-3.6.0.min.js' strategy='worker' />
-        <Script src='/js/jquery-migrate-3.4.0.min.js' strategy='worker' />
+        <Script src='/js/jquery-3.6.0.min.js' strategy='beforeInteractive' />
+        <Script
+          src='/js/jquery-migrate-3.4.0.min.js'
+          strategy='beforeInteractive'
+        />
 
         {/* Plugin */}
-        <Script src='/js/plugins.js' strategy='worker' />
+        <Script src='/js/plugins.js' strategy='beforeInteractive' />
 
         {/* GSAP */}
-        <Script src='/js/gsap_lib/gsap.min.js' strategy='worker' />
-        <Script src='/js/gsap_lib/ScrollSmoother.min.js' strategy='worker' />
-        <Script src='/js/gsap_lib/ScrollTrigger.min.js' strategy='worker' />
-        <Script src='/js/gsap_lib/SplitText.min.js' strategy='worker' />
+        <Script src='/js/gsap_lib/gsap.min.js' strategy='beforeInteractive' />
+        <Script
+          src='/js/gsap_lib/ScrollSmoother.min.js'
+          strategy='beforeInteractive'
+        />
+        <Script
+          src='/js/gsap_lib/ScrollTrigger.min.js'
+          strategy='beforeInteractive'
+        />
+        <Script
+          src='/js/gsap_lib/SplitText.min.js'
+          strategy='beforeInteractive'
+        />
         {/* common scripts */}
-        <Script src='/js/common_scripts.js' strategy='worker' />
+        <Script src='/js/common_scripts.js' strategy='beforeInteractive' />
 
         {/* <Script src='/js/inner_pages.js' /> */}
-        <Script src='/js/scripts.js' strategy='worker' />
+        <Script src='/js/scripts.js' strategy='beforeInteractive' />
       </head>
 
       <body>
@@ -55,10 +67,14 @@ export default function RootLayout({
               <path d='M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98' />
             </svg>
           </div>
-          <NavBar />
-          {/* End progress-scroll-button */}
-          {children}
-          <Footer />
+          <div id='smooth-wrapper'>
+            <div id='smooth-content'>
+              <NavBar />
+              {/* End progress-scroll-button */}
+              {children}
+              <Footer />
+            </div>
+          </div>
         </Suspense>
       </body>
     </html>

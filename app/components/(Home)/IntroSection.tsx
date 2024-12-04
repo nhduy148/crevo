@@ -12,8 +12,9 @@ const IntroSection = () => {
               <Image
                 src='/assets/imgs/intro.png'
                 alt=''
-                width={44}
-                height={44}
+                width={2000}
+                height={2000}
+                quality={100}
               />
             </div>
           </div>
@@ -30,7 +31,7 @@ const IntroSection = () => {
                 </span>
               </h4>
               <Link
-                href='./about.html'
+                href='./about'
                 className='butn butn-md butn-bord butn-rounded mt-40'
               >
                 <div className='d-flex align-items-center'>
@@ -39,8 +40,8 @@ const IntroSection = () => {
                     <Image
                       src='/assets/common/imgs/icons/arrow-top-right.svg'
                       alt=''
-                      width={44}
-                      height={44}
+                      width={32}
+                      height={32}
                     />
                   </span>
                 </div>
