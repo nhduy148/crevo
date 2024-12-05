@@ -1,10 +1,16 @@
 import React from 'react';
 import TeamData from '../../data/team.json';
 import MemberCard from '../components/(About)/MemberCard';
+import Image from 'next/image';
+import ClientCard from '../components/(About)/ClientCard';
+import ClientCommentData from '../../data/clients/comment.json';
+import ClientListData from '../../data/clients/list.json';
+import BrandCard from '../components/(About)/BrandCard';
 
 const About = () => {
   const teamData = TeamData;
-  console.log(teamData);
+  const clientData = ClientCommentData;
+  const clientList = ClientListData;
   return (
     <main>
       <header className='about-hed section-padding pb-0'>
@@ -99,7 +105,13 @@ const About = () => {
             </div>
           </div>
           <div className='fit-img radius-15'>
-            <img src='assets/imgs/about/header/1.jpg' alt='' />
+            <Image
+              src='/assets/imgs/about/header/1.jpg'
+              alt=''
+              width={1000}
+              height={1000}
+              quality={100}
+            />
           </div>
         </div>
       </header>
@@ -128,9 +140,12 @@ const About = () => {
                       <div className='d-flex'>
                         <span className='text'>Learn More</span>
                         <span className='icon'>
-                          <img
-                            src='./assets/common/imgs/icons/arrow-top-right.svg'
+                          <Image
+                            src='/assets/common/imgs/icons/arrow-top-right.svg'
                             alt=''
+                            width={1000}
+                            height={1000}
+                            quality={100}
                           />
                         </span>
                       </div>
@@ -154,9 +169,12 @@ const About = () => {
                       </p>
                       <div>
                         <div className='icon invert'>
-                          <img
-                            src='./assets/common/imgs/icons/crown-solid.svg'
+                          <Image
+                            src='/assets/common/imgs/icons/crown-solid.svg'
                             alt=''
+                            width={1000}
+                            height={1000}
+                            quality={100}
                           />
                         </div>
                       </div>
@@ -176,9 +194,12 @@ const About = () => {
                       </p>
                       <div>
                         <div className='icon invert'>
-                          <img
-                            src='./assets/common/imgs/icons/bezier-curve-solid.svg'
+                          <Image
+                            src='/assets/common/imgs/icons/bezier-curve-solid.svg'
                             alt=''
+                            width={1000}
+                            height={1000}
+                            quality={100}
                           />
                         </div>
                       </div>
@@ -198,9 +219,12 @@ const About = () => {
                       </p>
                       <div>
                         <div className='icon invert'>
-                          <img
-                            src='./assets/common/imgs/icons/code-solid.svg'
+                          <Image
+                            src='/assets/common/imgs/icons/code-solid.svg'
                             alt=''
+                            width={1000}
+                            height={1000}
+                            quality={100}
                           />
                         </div>
                       </div>
@@ -220,9 +244,12 @@ const About = () => {
                       </p>
                       <div>
                         <div className='icon invert'>
-                          <img
-                            src='./assets/common/imgs/icons/chart-line-solid.svg'
+                          <Image
+                            src='/assets/common/imgs/icons/chart-line-solid.svg'
                             alt=''
+                            width={1000}
+                            height={1000}
+                            quality={100}
                           />
                         </div>
                       </div>
@@ -461,15 +488,21 @@ const About = () => {
                 <div className='col-lg-5'>
                   <div className='qoute-icon md-mb50'>
                     <div className='text'>
-                      <img
-                        src='assets/imgs/about/testim/Vector_Cricle_Text.svg'
+                      <Image
+                        src='/assets/imgs/about/testim/Vector_Cricle_Text.svg'
                         alt=''
+                        width={1000}
+                        height={1000}
+                        quality={1000}
                       />
                     </div>
                     <div className='icon'>
-                      <img
-                        src='assets/imgs/about/testim/vector_quote.svg'
+                      <Image
+                        src='/assets/imgs/about/testim/vector_quote.svg'
                         alt=''
+                        width={1000}
+                        height={1000}
+                        quality={1000}
                       />
                     </div>
                   </div>
@@ -477,87 +510,9 @@ const About = () => {
                 <div className='col-lg-7'>
                   <div className='swiper testim-swiper swiper-container'>
                     <div className='swiper-wrapper'>
-                      <div className='swiper-slide'>
-                        <div className='item'>
-                          <div className='text'>
-                            <h4>
-                              “Hubfolio studio ability to create a high quality
-                              UI is stands out. It’s something we placed a
-                              premium on. A studio with passionate,
-                              professional, fun and full creativity.
-                              Recommend!.”
-                            </h4>
-                          </div>
-                          <div className='info d-flex align-items-center mt-40 pt-30 bord-thin-top-light'>
-                            <div>
-                              <div className='img-author'>
-                                <img
-                                  src='assets/imgs/about/testim/avatar1.jpg'
-                                  alt=''
-                                />
-                              </div>
-                            </div>
-                            <div className='info-text'>
-                              <span>Bradley Gordon</span>
-                              <p>CEO & Founder, Archin Studio</p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div className='swiper-slide'>
-                        <div className='item'>
-                          <div className='text'>
-                            <h4>
-                              “Hubfolio studio ability to create a high quality
-                              UI is stands out. It’s something we placed a
-                              premium on. A studio with passionate,
-                              professional, fun and full creativity.
-                              Recommend!.”
-                            </h4>
-                          </div>
-                          <div className='info d-flex align-items-center mt-40 pt-30 bord-thin-top-light'>
-                            <div>
-                              <div className='img-author'>
-                                <img
-                                  src='assets/imgs/about/testim/avatar2.jpg'
-                                  alt=''
-                                />
-                              </div>
-                            </div>
-                            <div className='info-text'>
-                              <span>Bradley Gordon</span>
-                              <p>CEO & Founder, Archin Studio</p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div className='swiper-slide'>
-                        <div className='item'>
-                          <div className='text'>
-                            <h4>
-                              “Hubfolio studio ability to create a high quality
-                              UI is stands out. It’s something we placed a
-                              premium on. A studio with passionate,
-                              professional, fun and full creativity.
-                              Recommend!.”
-                            </h4>
-                          </div>
-                          <div className='info d-flex align-items-center mt-40 pt-30 bord-thin-top-light'>
-                            <div>
-                              <div className='img-author'>
-                                <img
-                                  src='assets/imgs/about/testim/avatar3.jpg'
-                                  alt=''
-                                />
-                              </div>
-                            </div>
-                            <div className='info-text'>
-                              <span>Bradley Gordon</span>
-                              <p>CEO & Founder, Archin Studio</p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
+                      {clientData.map((e, key) => {
+                        return <ClientCard {...e} key={key} />;
+                      })}
                     </div>
                     <div className='swiper-pagination'></div>
                   </div>
@@ -572,41 +527,9 @@ const About = () => {
                 <h6 className='sub-head'>Partner with +150 brands</h6>
               </div>
               <div className='row sm-marg'>
-                <div className='col-lg col-md-4 col-6 md-mb30'>
-                  <div className='item d-flex align-items-center justify-content-center'>
-                    <div className='img'>
-                      <img src='assets/imgs/about/clients/1.svg' alt='' />
-                    </div>
-                  </div>
-                </div>
-                <div className='col-lg col-md-4 col-6 md-mb30'>
-                  <div className='item d-flex align-items-center justify-content-center'>
-                    <div className='img'>
-                      <img src='assets/imgs/about/clients/2.svg' alt='' />
-                    </div>
-                  </div>
-                </div>
-                <div className='col-lg col-md-4 col-6 md-mb30'>
-                  <div className='item d-flex align-items-center justify-content-center'>
-                    <div className='img'>
-                      <img src='assets/imgs/about/clients/3.svg' alt='' />
-                    </div>
-                  </div>
-                </div>
-                <div className='col-lg col-md-4 col-6 sm-mb30'>
-                  <div className='item d-flex align-items-center justify-content-center'>
-                    <div className='img'>
-                      <img src='assets/imgs/about/clients/4.svg' alt='' />
-                    </div>
-                  </div>
-                </div>
-                <div className='col-lg col-md-4 col-6'>
-                  <div className='item d-flex align-items-center justify-content-center'>
-                    <div className='img'>
-                      <img src='assets/imgs/about/clients/5.svg' alt='' />
-                    </div>
-                  </div>
-                </div>
+                {clientList.map((e, key) => {
+                  return <BrandCard key={key} {...e} />;
+                })}
               </div>
             </div>
           </div>

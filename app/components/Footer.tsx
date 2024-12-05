@@ -47,20 +47,11 @@ const Footer = () => {
             </div>
             <div className='col-lg-6 offset-lg-5'>
               <div className='social-icon'>
-                <a href='#0'>
-                  <i className='fa-brands fa-x-twitter'></i>
+                <a href='https://www.facebook.com/crevotech'>
+                  <i className='fa-brands fa-facebook'></i>
                 </a>
-                <a href='#0'>
-                  <i className='fa-brands fa-instagram'></i>
-                </a>
-                <a href='#0'>
-                  <i className='fa-brands fa-dribbble'></i>
-                </a>
-                <a href='#0'>
-                  <i className='fa-brands fa-behance'></i>
-                </a>
-                <a href='#0'>
-                  <i className='fa-brands fa-github'></i>
+                <a href='https://www.linkedin.com/company/crevo-tech/'>
+                  <i className='fa-brands fa-linkedin'></i>
                 </a>
               </div>
             </div>
@@ -80,12 +71,12 @@ const Footer = () => {
             </div>
             <div className='col-lg-4 d-flex justify-content-end'>
               <div className='links sub-color d-flex justify-content-between'>
-                <Link href='#' className='active'>
+                <Link href='/' className='active'>
                   Home
                 </Link>
-                <Link href='./portfolio-standard.html'>Works</Link>
-                <Link href='./about.html'>Studio</Link>
-                <Link href='./blog-standard.html'>News</Link>
+                <Link href='/about'>About us</Link>
+                <Link href='/projects'>Projects</Link>
+                <Link href='/contact'>Contact</Link>
               </div>
             </div>
           </div>

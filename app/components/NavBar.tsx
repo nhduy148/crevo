@@ -42,15 +42,16 @@ const NavBar = () => {
           </ul>
         </div>
         <div className='topnav d-flex align-items-center'>
-          <Link href='./contact.html' className='butn butn-rounded'>
+          <Link href='/contact' className='butn butn-rounded'>
             <div className='d-flex align-items-center'>
               <span>Contact Us</span>
               <span className='icon ml-10'>
                 <Image
                   src='/assets/common/imgs/icons/arrow-top-right.svg'
                   alt=''
-                  width={44}
-                  height={44}
+                  width={1000}
+                  height={1000}
+                  quality={100}
                 />
               </span>
             </div>
