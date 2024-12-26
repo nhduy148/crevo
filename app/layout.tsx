@@ -21,6 +21,7 @@ export default function RootLayout({
   return (
     <html lang='en'>
       <head>
+        <link rel='stylesheet' href='/assets/css/plugins.css'></link>
         {/* jQuery */}
         <Script
           src='/assets/js/jquery-3.6.0.min.js'
