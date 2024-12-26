@@ -15,7 +15,7 @@ $tablet-sm-screen: 768px;
 $desk-md-screen: 992px;
 $desk-lg-screen: 1300px;
 
-@import '/assets/common/css/plugins.css';
+@import '/assets/css/plugins.css';
 
 // menu
 @import 'menu';
@@ -132,10 +132,6 @@ p {
       left: 0;
     }
   }
-}
-
-.loader-wrap svg {
-  fill: #1d1d1d;
 }
 
 .butn {

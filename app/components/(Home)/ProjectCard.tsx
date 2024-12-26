@@ -1,16 +1,9 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
+import { Project } from 'types';
 
-type Props = {
-  id: string;
-  title: string;
-  short_description: string;
-  tags: string[];
-  thumbnail_url: string;
-};
-
-const ProjectCard = (props: Props) => {
+const ProjectCard = (props: Project) => {
   return (
     <div className='card-item'>
       <div className='row'>

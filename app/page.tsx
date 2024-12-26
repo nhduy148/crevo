@@ -8,6 +8,8 @@ import ClientsSection from './components/(Home)/ClientsSection';
 import TestimonialsSection from './components/(Home)/TestimonialsSection';
 import AwardsSections from './components/(Home)/AwardsSections';
 import BlogSection from './components/(Home)/BlogSection';
+import DataProject from '../data/project.json';
+
 // import { useRouter } from 'next/router';
 // import en from '../public/locales/en/common.json';
 // import vi from '../public/locales/en/common.json';
@@ -23,7 +25,7 @@ export default function Home() {
       <ServicesSection />
       <IntroSection />
       <MarqueeSection />
-      <ProjectSection />
+      <ProjectSection data={DataProject} />
       <ClientsSection />
       <TestimonialsSection />
       <AwardsSections />

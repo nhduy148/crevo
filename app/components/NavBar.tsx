@@ -20,7 +20,7 @@ const NavBar = () => {
         <div className='collapse navbar-collapse' id='navbarSupportedContent'>
           <ul className='navbar-nav'>
             <li className='nav-item'>
-              <Link className='nav-link active' href='/'>
+              <Link className='nav-link' href='/'>
                 Home
               </Link>
             </li>
@@ -32,11 +32,6 @@ const NavBar = () => {
             <li className='nav-item'>
               <Link className='nav-link' href='/projects'>
                 Projects
-              </Link>
-            </li>
-            <li className='nav-item'>
-              <Link className='nav-link' href='./blog-grid.html'>
-                News
               </Link>
             </li>
           </ul>

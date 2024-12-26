@@ -18,35 +18,37 @@ $tablet-sm-screen: 768px;
 $desk-md-screen: 992px;
 $desk-lg-screen: 1300px;
 
+@import '/assets/css/plugins.css';
+
 // menu
-@import "menu";
+@import 'menu';
 
 // about
-@import "inner_pages/about";
+@import 'inner_pages/about';
 
 // services
-@import "inner_pages/services";
+@import 'inner_pages/services';
 
 // team
-@import "inner_pages/team";
+@import 'inner_pages/team';
 
 // pricing
-@import "inner_pages/pricing";
+@import 'inner_pages/pricing';
 
 // faqs
-@import "inner_pages/faqs";
+@import 'inner_pages/faqs';
 
 // portfolios
-@import "inner_pages/portfolios";
+@import 'inner_pages/portfolios';
 
 // blogs
-@import "inner_pages/blogs";
+@import 'inner_pages/blogs';
 
 // contact
-@import "inner_pages/contact";
+@import 'inner_pages/contact';
 
 body {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 18px;
   line-height: 28px;
   font-weight: 400;
@@ -131,7 +133,7 @@ h6 {
 }
 
 .title-font {
-  font-family: "Six Caps", sans-serif;
+  font-family: 'Six Caps', sans-serif;
   letter-spacing: normal;
 }
 
@@ -150,7 +152,7 @@ p {
     font-weight: 300;
 
     &:after {
-      content: "";
+      content: '';
       width: 7px;
       height: 7px;
       background: #fff;
@@ -185,7 +187,7 @@ p {
     position: relative;
 
     &:after {
-      content: "";
+      content: '';
       width: 30px;
       height: 30px;
       background: $main-color;

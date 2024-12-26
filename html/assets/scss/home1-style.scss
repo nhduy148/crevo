@@ -15,38 +15,40 @@ $tablet-sm-screen: 768px;
 $desk-md-screen: 992px;
 $desk-lg-screen: 1300px;
 
+@import '/assets/common/css/plugins.css';
+
 // menu
-@import "menu";
+@import 'menu';
 
 // header
-@import "header";
+@import 'header';
 
 // Services
-@import "services";
+@import 'services';
 
 // Works
-@import "works";
+@import 'works';
 
 // Clients
-@import "clients";
+@import 'clients';
 
 // testimonials
-@import "testimonials";
+@import 'testimonials';
 
 // awards
-@import "awards";
+@import 'awards';
 
 // blogs
-@import "blogs";
+@import 'blogs';
 
 // contact
-@import "contact";
+@import 'contact';
 
 // footer
-@import "footer";
+@import 'footer';
 
 body {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 18px;
   line-height: 28px;
   font-weight: 400;
@@ -120,7 +122,7 @@ p {
     padding-left: 25px;
 
     &:after {
-      content: "";
+      content: '';
       width: 7px;
       height: 7px;
       background: #fff;
