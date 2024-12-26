@@ -21,7 +21,16 @@ export default function RootLayout({
   return (
     <html lang='en'>
       <head>
-        <link rel='stylesheet' href='/assets/css/plugins.css'></link>
+        {/* Make this link load first */}
+        <link
+          rel='preload'
+          href='/assets/css/plugins.css'
+          as='style'
+          onLoad="this.rel='stylesheet'"
+        />
+        <noscript>
+          <link rel='stylesheet' href='/assets/css/plugins.css' />
+        </noscript>
         {/* jQuery */}
         <Script
           src='/assets/js/jquery-3.6.0.min.js'
