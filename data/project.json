@@ -1,0 +1,56 @@
+[
+  {
+    "id": "001",
+    "title": "Unique visual identity to bring in digital market",
+    "tagline": "Unique visual identity to bring in digital market",
+    "category": "Development",
+    "client": "Envato",
+    "start_date": "7 August 2021",
+    "duration": 3,
+    "short_description": "Duis sed augue condimentum, blandit sapien in, accumsan eros. Curabitur sodales pulvinar libero et venenatis. Nullam eleifend risus a quam dictum auctor. Mauris at leo non dui euismod varius. Cras vel erat at est aliquam laoreet.",
+    "overview": "Duis sed augue condimentum, blandit sapien in, accumsan eros. Curabitur sodales pulvinar libero et venenatis. Nullam eleifend risus a quam dictum auctor. Mauris at leo non dui euismod varius. Cras vel erat at est aliquam laoreet. Donec tincidunt, nunc eu gravida malesuada, tellus leo. Maecenas sed tortor molestie, sagittis nibh sit amet, dapibus felis. Vivamus sed neque iaculis, ultrices nulla eu, venenatis dui. Praesent luctus urna eu dapibus pulvinar. Curabitur sed magna accumsan neque fermentum laoreet. Ut nunc.",
+    "thumbnail_url": "/assets/imgs/portfolio/works2/1.jpg",
+    "gallery_url": [
+      "/assets/imgs/services/img1.jpg",
+      "/assets/imgs/services/img2.jpg",
+      "/assets/imgs/services/img2.jpg"
+    ],
+    "tags": ["abc", "xyz"]
+  },
+  {
+    "id": "002",
+    "title": "Unique visual identity to bring in digital market",
+    "tagline": "Unique visual identity to bring in digital market",
+    "category": "Development",
+    "client": "Envato",
+    "start_date": "7 August 2021",
+    "duration": 3,
+    "short_description": "Duis sed augue condimentum, blandit sapien in, accumsan eros. Curabitur sodales pulvinar libero et venenatis. Nullam eleifend risus a quam dictum auctor. Mauris at leo non dui euismod varius. Cras vel erat at est aliquam laoreet.",
+    "overview": "Duis sed augue condimentum, blandit sapien in, accumsan eros. Curabitur sodales pulvinar libero et venenatis. Nullam eleifend risus a quam dictum auctor. Mauris at leo non dui euismod varius. Cras vel erat at est aliquam laoreet. Donec tincidunt, nunc eu gravida malesuada, tellus leo. Maecenas sed tortor molestie, sagittis nibh sit amet, dapibus felis. Vivamus sed neque iaculis, ultrices nulla eu, venenatis dui. Praesent luctus urna eu dapibus pulvinar. Curabitur sed magna accumsan neque fermentum laoreet. Ut nunc.",
+    "thumbnail_url": "/assets/imgs/portfolio/works2/1.jpg",
+    "gallery_url": [
+      "/assets/imgs/portfolio/works2/1.jpg",
+      "/assets/imgs/portfolio/works2/1.jpg",
+      "/assets/imgs/portfolio/works2/1.jpg"
+    ],
+    "tags": ["abc", "xyz"]
+  },
+  {
+    "id": "003",
+    "title": "Unique visual identity to bring in digital market",
+    "tagline": "Unique visual identity to bring in digital market",
+    "category": "Development",
+    "client": "Envato",
+    "start_date": "7 August 2021",
+    "duration": 3,
+    "short_description": "Duis sed augue condimentum, blandit sapien in, accumsan eros. Curabitur sodales pulvinar libero et venenatis. Nullam eleifend risus a quam dictum auctor. Mauris at leo non dui euismod varius. Cras vel erat at est aliquam laoreet.",
+    "overview": "Duis sed augue condimentum, blandit sapien in, accumsan eros. Curabitur sodales pulvinar libero et venenatis. Nullam eleifend risus a quam dictum auctor. Mauris at leo non dui euismod varius. Cras vel erat at est aliquam laoreet. Donec tincidunt, nunc eu gravida malesuada, tellus leo. Maecenas sed tortor molestie, sagittis nibh sit amet, dapibus felis. Vivamus sed neque iaculis, ultrices nulla eu, venenatis dui. Praesent luctus urna eu dapibus pulvinar. Curabitur sed magna accumsan neque fermentum laoreet. Ut nunc.",
+    "thumbnail_url": "/assets/imgs/portfolio/works2/1.jpg",
+    "gallery_url": [
+      "/assets/imgs/portfolio/works2/1.jpg",
+      "/assets/imgs/portfolio/works2/1.jpg",
+      "/assets/imgs/portfolio/works2/1.jpg"
+    ],
+    "tags": ["abc", "xyz"]
+  }
+]
