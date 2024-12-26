@@ -22,12 +22,7 @@ export default function RootLayout({
     <html lang='en'>
       <head>
         {/* Make this link load first */}
-        <link
-          rel='preload'
-          href='/assets/css/plugins.css'
-          as='style'
-          onLoad="this.rel='stylesheet'"
-        />
+        <link rel='preload' href='/assets/css/plugins.css' as='style' />
         <noscript>
           <link rel='stylesheet' href='/assets/css/plugins.css' />
         </noscript>
