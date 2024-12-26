@@ -4,9 +4,9 @@ import Loading from './loading';
 import Script from 'next/script';
 import NavBar from './components/NavBar';
 import Footer from './components/Footer';
+import './styles/common/common_style.scss';
 import './styles/main.scss';
 import './styles/inner_pages.scss';
-import './styles/common/common_style.scss';
 
 export const metadata: Metadata = {
   title: 'Crevo Tech',
@@ -21,11 +21,7 @@ export default function RootLayout({
   return (
     <html lang='en'>
       <head>
-        {/* Make this link load first */}
-        <link rel='preload' href='/assets/css/plugins.css' as='style' />
-        <noscript>
-          <link rel='stylesheet' href='/assets/css/plugins.css' />
-        </noscript>
+        <link rel='stylesheet' href='/assets/css/plugins.css'></link>
         {/* jQuery */}
         <Script
           src='/assets/js/jquery-3.6.0.min.js'
