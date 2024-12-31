@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
 import { notFound } from 'next/navigation';
@@ -6,8 +7,8 @@ import type { Metadata } from 'next';
 import { Suspense } from 'react';
 import Loading from './loading';
 import Script from 'next/script';
-import NavBar from '@components/NavBar';
-import Footer from '@components/Footer';
+import NavBar from './components/NavBar';
+import Footer from './components/Footer';
 import './styles/common/common_style.scss';
 import './styles/main.scss';
 import './styles/inner_pages.scss';
