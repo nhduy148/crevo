@@ -5,7 +5,7 @@ import { useTranslations } from 'next-intl';
 import { Link } from '@i18n/routing.ts';
 
 const NavBar = () => {
-  const t = useTranslations('NavBar');
+  const t = useTranslations();
   return (
     <nav className='navbar navbar-expand-lg'>
       <div className='container'>
@@ -24,17 +24,17 @@ const NavBar = () => {
           <ul className='navbar-nav'>
             <li className='nav-item'>
               <Link className='nav-link' href='/'>
-                {t('home')}
+                {t('NavBar.home')}
               </Link>
             </li>
             <li className='nav-item'>
               <Link className='nav-link' href='/about'>
-                {t('about')}
+                {t('NavBar.about')}
               </Link>
             </li>
             <li className='nav-item'>
               <Link className='nav-link' href='/projects'>
-                {t('projects')}
+                {t('NavBar.projects')}
               </Link>
             </li>
           </ul>
@@ -42,7 +42,7 @@ const NavBar = () => {
         <div className='topnav d-flex align-items-center'>
           <Link href='/contact' className='butn butn-rounded'>
             <div className='d-flex align-items-center'>
-              <span>{t('contact')}</span>
+              <span>{t('NavBar.contact')}</span>
               <span className='icon ml-10'>
                 <Image
                   src='/assets/common/imgs/icons/arrow-top-right.svg'

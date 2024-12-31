@@ -1,12 +1,32 @@
 {
   "HomePage": {
-    "title": "We create award winningsites",
-    "description": "Empowering businesses in the era of technology."
+    "title": "Chúng tôi tạo nên sự",
+    "title2": "khác biệt",
+    "description": "Đồng hành cùng doanh nghiệp vươn xa trong thời đại số."
   },
   "NavBar": {
     "home": "Trang chủ",
     "about": "Về chúng tôi",
     "projects": "Dự án",
     "contact": "Liên hệ"
+  },
+  "Contact": {
+    "title": "Thành công là một cuộc chơi tập thể, phải không?",
+    "subTitle": "Hãy cùng nhau thực hiện!",
+    "fullName": "Tên của bạn",
+    "phFullName": "Nhập họ tên của bạn",
+    "email": "Email",
+    "phEmail": "Địa chỉ email của bạn",
+    "subject": "Chủ đề",
+    "phSubject": "Chủ đề bạn cần hỏi",
+    "phone": "Số điện thoại",
+    "phPhone": "Số điện thoại của bạn",
+    "message": "Tin nhắn",
+    "phMessage": "Nhập nội dung tin nhắn tại đây...",
+    "optional": "Không bắt buộc"
+  },
+  "Footer": {
+    "location": "Địa chỉ",
+    "inquiry": "Liên hệ"
   }
 }

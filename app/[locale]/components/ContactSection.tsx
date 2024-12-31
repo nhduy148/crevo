@@ -1,7 +1,8 @@
+import { useTranslations } from 'next-intl';
 import Image from 'next/image';
-import React from 'react';
 
 const ContactSection = () => {
+  const t = useTranslations();
   return (
     <section className='contact-sa section-padding pt-0'>
       <div className='container'>
@@ -11,9 +12,9 @@ const ContactSection = () => {
               <div className='info'>
                 <div className='sec-head'>
                   <h4>
-                    Success is a team play, right?
+                    {t('Contact.title')}{' '}
                     <span className='sub-color inline'>
-                      Let’s work together!
+                      {t('Contact.subTitle')}
                     </span>
                   </h4>
                 </div>
@@ -50,14 +51,14 @@ const ContactSection = () => {
                     <div className='col-lg-6'>
                       <div className='form-group mb-30'>
                         <label htmlFor='form_name'>
-                          Full Name
+                          {t('Contact.fullName')}
                           <span className='star'>*</span>
                         </label>
                         <input
                           id='form_name'
                           type='text'
                           name='name'
-                          placeholder='Your full name'
+                          placeholder={t('Contact.phFullName')}
                           required
                         />
                       </div>
@@ -66,14 +67,14 @@ const ContactSection = () => {
                     <div className='col-lg-6'>
                       <div className='form-group mb-30'>
                         <label htmlFor='form_email'>
-                          Email Address
+                          {t('Contact.email')}
                           <span className='star'>*</span>
                         </label>
                         <input
                           id='form_email'
                           type='email'
                           name='email'
-                          placeholder='Your email address'
+                          placeholder={t('Contact.phEmail')}
                           required
                         />
                       </div>
@@ -82,14 +83,14 @@ const ContactSection = () => {
                     <div className='col-lg-6'>
                       <div className='form-group mb-30'>
                         <label htmlFor='form_subject'>
-                          Subject
+                          {t('Contact.subject')}
                           <span className='star'>*</span>
                         </label>
                         <input
                           id='form_subject'
                           type='text'
                           name='subject'
-                          placeholder='subject'
+                          placeholder={t('Contact.phSubject')}
                           required
                         />
                       </div>
@@ -98,14 +99,16 @@ const ContactSection = () => {
                     <div className='col-lg-6'>
                       <div className='form-group mb-30'>
                         <label htmlFor='form_budget'>
-                          Your Budget
-                          <span className='opt sub-color'>(Optional)</span>
+                          {t('Contact.phone')}{' '}
+                          <span className='opt sub-color'>
+                            ({t('Contact.optional')})
+                          </span>
                         </label>
                         <input
                           id='form_budget'
                           type='text'
                           name='budget'
-                          placeholder='A range of budget for project'
+                          placeholder={t('Contact.phPhone')}
                           required
                         />
                       </div>
@@ -113,11 +116,13 @@ const ContactSection = () => {
 
                     <div className='col-12'>
                       <div className='form-group'>
-                        <label htmlFor='form_message'>Message</label>
+                        <label htmlFor='form_message'>
+                          {t('Contact.message')}
+                        </label>
                         <textarea
                           id='form_message'
                           name='message'
-                          placeholder='Write your message here...'
+                          placeholder={t('Contact.phMessage')}
                           rows={4}
                           required
                         ></textarea>

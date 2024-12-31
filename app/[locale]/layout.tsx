@@ -1,13 +1,13 @@
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
 import { notFound } from 'next/navigation';
-import { routing } from '../../i18n/routing';
+import { routing } from '@i18n/routing';
 import type { Metadata } from 'next';
 import { Suspense } from 'react';
 import Loading from './loading';
 import Script from 'next/script';
-import NavBar from './components/NavBar';
-import Footer from './components/Footer';
+import NavBar from '@components/NavBar';
+import Footer from '@components/Footer';
 import './styles/common/common_style.scss';
 import './styles/main.scss';
 import './styles/inner_pages.scss';
@@ -66,8 +66,6 @@ export default async function LocaleLayout({
         <Suspense fallback={<Loading />}>
           <Loading />
           <div className='cursor'></div>
-
-          {/* Start progress-scroll-button */}
           <div className='progress-wrap cursor-pointer'>
             <svg
               className='progress-circle svg-content'
@@ -82,10 +80,7 @@ export default async function LocaleLayout({
             <NavBar />
             <div id='smooth-wrapper'>
               <div id='smooth-content'>
-                {/* End progress-scroll-button */}
-
                 {children}
-
                 <Footer />
               </div>
             </div>

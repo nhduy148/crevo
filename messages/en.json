@@ -1,6 +1,7 @@
 {
   "HomePage": {
-    "title": "We create award winningsites",
+    "title": "We create the",
+    "title2": "difference",
     "description": "Empowering businesses in the era of technology."
   },
   "NavBar": {
@@ -8,5 +9,23 @@
     "about": "About",
     "projects": "Projects",
     "contact": "Contact Us"
+  },
+  "Contact": {
+    "title": "Success is a team play, right?",
+    "subTitle": "Let’s work together!",
+    "fullName": "Full Name",
+    "phFullName": "Your full name",
+    "email": "Email Address",
+    "phEmail": "Your email address",
+    "subject": "Subject",
+    "phSubject": "Subject of your message",
+    "phone": "Phone number",
+    "phPhone": "Your phone number",
+    "message": "Message",
+    "phMessage": "Write your message here...",
+    "optional": "Optional"
+  },
+  "Footer": {
+    "location": "location"
   }
 }

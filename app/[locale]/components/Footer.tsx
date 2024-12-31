@@ -1,22 +1,24 @@
+import { useTranslations } from 'next-intl';
 import Image from 'next/image';
-import Link from 'next/link';
+import { Link } from '@i18n/routing';
 import React from 'react';
 
 const Footer = () => {
+  const t = useTranslations();
   return (
     <footer className='footer-sa bord-thin-top-light pb-80'>
       <div className='container section-padding'>
         <div className='sec-head mb-80'>
           <div className='row'>
             <div className='col-lg-5'>
-              <a href='#' className='logo md-mb50'>
+              <Link href='/' className='logo md-mb50'>
                 <Image
                   src='/assets/imgs/Logo-light.svg'
                   alt=''
                   width={44}
                   height={44}
                 />
-              </a>
+              </Link>
             </div>
             <div className='col-lg-6'>
               <h4>
@@ -32,13 +34,13 @@ const Footer = () => {
               <div className='row'>
                 <div className='col-md-6'>
                   <div className='item'>
-                    <span className='sub-color'>location</span>
+                    <span className='sub-color'>{t('Footer.location')}</span>
                     <p>Phan Tay Ho, Phu Nhuan, Ho Chi Minh city, Viet Nam</p>
                   </div>
                 </div>
                 <div className='col-md-6 d-flex justify-content-end justify-end'>
                   <div className='item'>
-                    <span className='sub-color'>inquiry</span>
+                    <span className='sub-color'>{t('Footer.inquiry')}</span>
                     <p>owner.crevo@gmail.com</p>
                     <p>+84 909 55 2099</p>
                   </div>
@@ -47,9 +49,9 @@ const Footer = () => {
             </div>
             <div className='col-lg-6 offset-lg-5'>
               <div className='social-icon'>
-                <a href='https://www.facebook.com/crevotech'>
+                <Link href='https://www.facebook.com/crevotech'>
                   <i className='fa-brands fa-facebook'></i>
-                </a>
+                </Link>
                 <a href='https://www.linkedin.com/company/crevo-tech/'>
                   <i className='fa-brands fa-linkedin'></i>
                 </a>
@@ -71,11 +73,11 @@ const Footer = () => {
             <div className='col-lg-4 d-flex justify-content-end'>
               <div className='links sub-color d-flex justify-content-between'>
                 <Link href='/' className='active'>
-                  Home
+                  {t('NavBar.home')}
                 </Link>
-                <Link href='/about'>About us</Link>
-                <Link href='/projects'>Projects</Link>
-                <Link href='/contact'>Contact</Link>
+                <Link href='/about'>{t('NavBar.about')}</Link>
+                <Link href='/projects'>{t('NavBar.projects')}</Link>
+                <Link href='/contact'>{t('NavBar.contact')}</Link>
               </div>
             </div>
           </div>

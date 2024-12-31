@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'i18n/routing';
 
 const AwardsSections = () => {
   return (
@@ -141,15 +142,12 @@ const AwardsSections = () => {
           </div>
         </div>
         <div className='text-center mt-80'>
-          <a
-            href='./about.html'
-            className='butn butn-md butn-bord butn-rounded'
-          >
+          <Link href='/about' className='butn butn-md butn-bord butn-rounded'>
             <div className='d-flex align-items-center'>
               <span>Show More</span>
               <span className='icon pe-7s-angle-right ml-10 fz-30'></span>
             </div>
-          </a>
+          </Link>
         </div>
       </div>
     </section>
