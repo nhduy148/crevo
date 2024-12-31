@@ -2,7 +2,6 @@ import React from 'react';
 import ProjectsData from '../../../data/project.json';
 import Link from 'next/link';
 import ProjectCard from '../components/(Project)/ProjectCard';
-import '../styles/inner_pages.scss';
 
 const Projects = () => {
   const data = ProjectsData;

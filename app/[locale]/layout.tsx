@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
 import { notFound } from 'next/navigation';
@@ -8,9 +9,9 @@ import Loading from './loading';
 import Script from 'next/script';
 import NavBar from './components/NavBar';
 import Footer from './components/Footer';
-import './styles/common/common_style.scss';
-import './styles/main.scss';
-import './styles/inner_pages.scss';
+import 'styles/common/common_style.scss';
+import 'styles/main.scss';
+import 'styles/inner_pages.scss';
 
 export const metadata: Metadata = {
   title: 'Crevo Tech',
@@ -73,8 +74,7 @@ export default async function LocaleLayout({
               className='progress-circle svg-content'
               width='100%'
               height='100%'
-              viewBox='-1 -1 102 102'
-            >
+              viewBox='-1 -1 102 102'>
               <path d='M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98' />
             </svg>
           </div>

@@ -2,7 +2,7 @@ import Image from 'next/image';
 // import Link from 'next/link';
 import React from 'react';
 import { useTranslations } from 'next-intl';
-import { Link } from '@i18n/routing.ts';
+import { Link } from 'i18n/routing';
 
 const NavBar = () => {
   const t = useTranslations('NavBar');
