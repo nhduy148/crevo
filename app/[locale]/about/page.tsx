@@ -1,10 +1,10 @@
 import React from 'react';
-import TeamData from '../../data/team.json';
+import TeamData from '../../../data/team.json';
 import MemberCard from '../components/(About)/MemberCard';
 import Image from 'next/image';
 import ClientCard from '../components/(About)/ClientCard';
-import ClientCommentData from '../../data/clients/comment.json';
-import ClientListData from '../../data/clients/list.json';
+import ClientCommentData from '../../../data/clients/comment.json';
+import ClientListData from '../../../data/clients/list.json';
 import BrandCard from '../components/(About)/BrandCard';
 
 const About = () => {
@@ -158,12 +158,12 @@ const About = () => {
               <div className='col-lg-9'>
                 <div className='item d-flex align-items-center'>
                   <div className='title'>
-                    <h2>Branding</h2>
+                    <h2>Concept</h2>
                   </div>
                   <div className='text ml-auto'>
                     <div className='d-flex align-items-center'>
                       <p>
-                        Brand Identity, Stragegy & Consult,
+                        Brand Identity, Strategy & Consult,
                         <br />
                         Position, Rebrand
                       </p>
@@ -188,7 +188,7 @@ const About = () => {
                   <div className='text ml-auto'>
                     <div className='d-flex align-items-center'>
                       <p>
-                        Brand Identity, Stragegy & Consult,
+                        Build Wireframe, Design system & Components,
                         <br />
                         Position, Rebrand
                       </p>
@@ -268,16 +268,22 @@ const About = () => {
             <div className='col-lg-5'>
               <div className='img-box'>
                 <div className='img fit-img'>
-                  <img src='assets/imgs/about/intro1.jpg' alt='' />
+                  <Image
+                    src='/assets/imgs/about/intro1.jpg'
+                    alt=''
+                    width={1000}
+                    height={1000}
+                  />
                 </div>
-                <div className='states'>
+                {/* Badge */}
+                {/* <div className='states'>
                   <h2 className='mb-10 fw-600'>7k+</h2>
                   <span className='text-u fz-12 fw-500'>
                     Satisfaction
                     <br />
                     Clients
                   </span>
-                </div>
+                </div> */}
                 <div className='just-shape'>
                   <div className='shap-right-top'>
                     <svg
@@ -435,7 +441,12 @@ const About = () => {
             </div>
             <div className='item' data-tp-throwable-el=''>
               <div className='icon1'>
-                <img src='assets/imgs/about/s-icon1.svg' alt='' />
+                <Image
+                  src='/assets/imgs/about/s-icon1.svg'
+                  alt=''
+                  width={1000}
+                  height={1000}
+                />
               </div>
             </div>
             <div className='item' data-tp-throwable-el=''>

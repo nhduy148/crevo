@@ -33,14 +33,14 @@ const Footer = () => {
                 <div className='col-md-6'>
                   <div className='item'>
                     <span className='sub-color'>location</span>
-                    <p>Phan Tay Ho, Phu Nhuan, Ho Chi Minh city, VN</p>
+                    <p>Phan Tay Ho, Phu Nhuan, Ho Chi Minh city, Viet Nam</p>
                   </div>
                 </div>
                 <div className='col-md-6 d-flex justify-content-end justify-end'>
                   <div className='item'>
                     <span className='sub-color'>inquiry</span>
                     <p>owner.crevo@gmail.com</p>
-                    <p>+84909552099</p>
+                    <p>+84 909 55 2099</p>
                   </div>
                 </div>
               </div>
@@ -64,8 +64,7 @@ const Footer = () => {
             <div className='col-lg-8'>
               <div className='copy sub-color md-mb30'>
                 <p>
-                  © 2024
-                  <Link href='crevo.tech'>Crevo Tech</Link>. All Right Reserved
+                  © 2024 <Link href='/'>Crevo Tech</Link>. All Right Reserved
                 </p>
               </div>
             </div>

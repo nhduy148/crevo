@@ -1,3 +1,7 @@
+import { NextIntlClientProvider } from 'next-intl';
+import { getMessages } from 'next-intl/server';
+import { notFound } from 'next/navigation';
+import { routing } from '../../i18n/routing';
 import type { Metadata } from 'next';
 import { Suspense } from 'react';
 import Loading from './loading';
@@ -13,15 +17,20 @@ export const metadata: Metadata = {
   description: 'Crevo Tech - Empowering businesses in the era of technology',
 };
 
-export default function RootLayout({
+export default async function LocaleLayout({
   children,
+  params: { locale },
 }: Readonly<{
   children: React.ReactNode;
+  params: { locale: string };
 }>) {
+  if (!routing.locales.includes(locale as any)) {
+    notFound();
+  }
+  const messages = await getMessages();
   return (
     <html lang='en'>
       <head>
-        {/* <link rel='stylesheet' href='/assets/css/plugins.css'></link> */}
         {/* jQuery */}
         <Script
           src='/assets/js/jquery-3.6.0.min.js'
@@ -64,18 +73,23 @@ export default function RootLayout({
               className='progress-circle svg-content'
               width='100%'
               height='100%'
-              viewBox='-1 -1 102 102'>
+              viewBox='-1 -1 102 102'
+            >
               <path d='M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98' />
             </svg>
           </div>
-          <NavBar />
-          <div id='smooth-wrapper'>
-            <div id='smooth-content'>
-              {/* End progress-scroll-button */}
-              {children}
-              <Footer />
+          <NextIntlClientProvider messages={messages}>
+            <NavBar />
+            <div id='smooth-wrapper'>
+              <div id='smooth-content'>
+                {/* End progress-scroll-button */}
+
+                {children}
+
+                <Footer />
+              </div>
             </div>
-          </div>
+          </NextIntlClientProvider>
         </Suspense>
         {/* common scripts */}
         <Script

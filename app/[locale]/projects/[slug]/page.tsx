@@ -1,5 +1,5 @@
 import React from 'react';
-import dataProject from '../../../data/project.json';
+import dataProject from '../../../../data/project.json';
 import Image from 'next/image';
 
 export type ProjectDetail = {
@@ -179,7 +179,8 @@ const ProjectDetail = async ({
                         data-bs-toggle='collapse'
                         data-bs-target='#collapse1'
                         aria-expanded='true'
-                        aria-controls='collapse1'>
+                        aria-controls='collapse1'
+                      >
                         <span>1.</span>
                         Research
                       </button>
@@ -188,7 +189,8 @@ const ProjectDetail = async ({
                       id='collapse1'
                       className='accordion-collapse collapse'
                       aria-labelledby='heading1'
-                      data-bs-parent='#accordionExample'>
+                      data-bs-parent='#accordionExample'
+                    >
                       <div className='accordion-body'>
                         <p>
                           Once the wireframe get approved at step 1, we’ll build
@@ -205,7 +207,8 @@ const ProjectDetail = async ({
                         data-bs-toggle='collapse'
                         data-bs-target='#collapse2'
                         aria-expanded='false'
-                        aria-controls='collapse2'>
+                        aria-controls='collapse2'
+                      >
                         <span>2.</span>
                         Concept Design
                       </button>
@@ -214,7 +217,8 @@ const ProjectDetail = async ({
                       id='collapse2'
                       className='accordion-collapse collapse show'
                       aria-labelledby='heading2'
-                      data-bs-parent='#accordionExample'>
+                      data-bs-parent='#accordionExample'
+                    >
                       <div className='accordion-body'>
                         <p>
                           Once the wireframe get approved at step 1, we’ll build
@@ -231,7 +235,8 @@ const ProjectDetail = async ({
                         data-bs-toggle='collapse'
                         data-bs-target='#collapse3'
                         aria-expanded='false'
-                        aria-controls='collapse3'>
+                        aria-controls='collapse3'
+                      >
                         <span>3.</span>
                         Implementation
                       </button>
@@ -240,7 +245,8 @@ const ProjectDetail = async ({
                       id='collapse3'
                       className='accordion-collapse collapse'
                       aria-labelledby='heading3'
-                      data-bs-parent='#accordionExample'>
+                      data-bs-parent='#accordionExample'
+                    >
                       <div className='accordion-body'>
                         <p>
                           Once the wireframe get approved at step 1, we’ll build
@@ -257,7 +263,8 @@ const ProjectDetail = async ({
                         data-bs-toggle='collapse'
                         data-bs-target='#collapse4'
                         aria-expanded='false'
-                        aria-controls='collapse4'>
+                        aria-controls='collapse4'
+                      >
                         <span>4.</span>
                         Testing
                       </button>
@@ -266,7 +273,8 @@ const ProjectDetail = async ({
                       id='collapse4'
                       className='accordion-collapse collapse'
                       aria-labelledby='heading4'
-                      data-bs-parent='#accordionExample'>
+                      data-bs-parent='#accordionExample'
+                    >
                       <div className='accordion-body'>
                         <p>
                           Once the wireframe get approved at step 1, we’ll build

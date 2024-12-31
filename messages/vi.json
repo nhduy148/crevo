@@ -1,0 +1,12 @@
+{
+  "HomePage": {
+    "title": "We create award winningsites",
+    "description": "Empowering businesses in the era of technology."
+  },
+  "NavBar": {
+    "home": "Trang chủ",
+    "about": "Về chúng tôi",
+    "projects": "Dự án",
+    "contact": "Liên hệ"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "HomePage": {
+    "title": "We create award winningsites",
+    "description": "Empowering businesses in the era of technology."
+  },
+  "NavBar": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact Us"
+  }
+}
