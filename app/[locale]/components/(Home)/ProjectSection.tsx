@@ -7,10 +7,10 @@ import Image from 'next/image';
 import { Project } from 'types';
 
 type Props = {
-  data: Project[];
+  dataProject: Project[];
 };
 
-const ProjectSection = ({ data }: Props) => {
+const ProjectSection = ({ dataProject }: Props) => {
   // const initSTs = () => {
   //   if (window.innerWidth > 991) {
   //     const cards = gsap.utils.toArray(
@@ -72,14 +72,15 @@ const ProjectSection = ({ data }: Props) => {
           </div>
         </div>
         <div className='cards'>
-          {data.map((item, key) => {
+          {dataProject.map((item, key) => {
             return <ProjectCard key={key} {...item} />;
           })}
         </div>
         <div className='text-center mt-80'>
           <Link
             href='./portfolio-cards.html'
-            className='butn butn-md butn-bord butn-rounded'>
+            className='butn butn-md butn-bord butn-rounded'
+          >
             <div className='d-flex align-items-center'>
               <span>Check Our Portfolio</span>
               <span className='icon invert ml-10'>

@@ -22,8 +22,8 @@ const Footer = () => {
             </div>
             <div className='col-lg-6'>
               <h4>
-                We hope to empower user and simplify
-                <span className='sub-color inline'>their everyday lives.</span>
+                {t('Footer.title')}{' '}
+                <span className='sub-color inline'>{t('Footer.subTitle')}</span>
               </h4>
             </div>
           </div>
@@ -35,7 +35,7 @@ const Footer = () => {
                 <div className='col-md-6'>
                   <div className='item'>
                     <span className='sub-color'>{t('Footer.location')}</span>
-                    <p>Phan Tay Ho, Phu Nhuan, Ho Chi Minh city, Viet Nam</p>
+                    <p>{t('Footer.detailLocation')}</p>
                   </div>
                 </div>
                 <div className='col-md-6 d-flex justify-content-end justify-end'>

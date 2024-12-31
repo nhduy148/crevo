@@ -7,11 +7,11 @@ import type { Metadata } from 'next';
 import { Suspense } from 'react';
 import Loading from './loading';
 import Script from 'next/script';
-import NavBar from './components/NavBar';
-import Footer from './components/Footer';
-import './styles/common/common_style.scss';
-import './styles/main.scss';
-import './styles/inner_pages.scss';
+import NavBar from '@components/NavBar';
+import Footer from '@components/Footer';
+import '@styles/common/common_style.scss';
+import '@styles/main.scss';
+import '@styles/inner_pages.scss';
 
 export const metadata: Metadata = {
   title: 'Crevo Tech',

@@ -26,6 +26,14 @@
     "optional": "Optional"
   },
   "Footer": {
-    "location": "location"
+    "title": "We hope to empower your product",
+    "subTitle": "to grow",
+    "location": "location",
+    "detailLocation": "Phan Tay Ho, Phu Nhuan, Ho Chi Minh city, Viet Nam",
+    "inquiry": "inquiry"
+  },
+  "About": {
+    "teamMember": "Team's Members",
+    "teamMemberDescription": "Each products built by passionate hearts. It’s our team!, meet our leader"
   }
 }

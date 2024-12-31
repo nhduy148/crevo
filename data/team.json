@@ -1,30 +1,40 @@
 [
   {
     "id": "001",
-    "full_name": "Khai Pham",
-    "title": "Unique visual identity to bring in digital market",
-    "avatar_url": "/assets/imgs/about/team/1.png",
-    "social_networks": [
+    "fullName": "Khai Pham",
+    "title": "Product manager cum Product designer with 8+ years of experience",
+    "avatarUrl": "/assets/imgs/about/team/1.png",
+    "socialNetworks": [
       { "platform": "facebook", "url": "facebook.com" },
       { "platform": "linkedin", "url": "linkedin.com" }
     ]
   },
   {
     "id": "002",
-    "full_name": "Khai Pham",
-    "title": "Unique visual identity to bring in digital market",
-    "avatar_url": "/assets/imgs/about/team/1.png",
-    "social_networks": [
+    "fullName": "Thong Pham",
+    "title": "Full-stack web developer with 10+ years of experience.",
+    "avatarUrl": "/assets/imgs/about/team/1.png",
+    "socialNetworks": [
       { "platform": "facebook", "url": "facebook.com" },
       { "platform": "linkedin", "url": "linkedin.com" }
     ]
   },
   {
     "id": "003",
-    "full_name": "Khai Pham",
-    "title": "Unique visual identity to bring in digital market",
-    "avatar_url": "/assets/imgs/about/team/1.png",
-    "social_networks": [
+    "fullName": "Duy Nguyen",
+    "title": "Front-end web and mobile developer with 5+ years of experience.",
+    "avatarUrl": "/assets/imgs/about/team/1.png",
+    "socialNetworks": [
+      { "platform": "facebook", "url": "facebook.com" },
+      { "platform": "linkedin", "url": "linkedin.com" }
+    ]
+  },
+  {
+    "id": "004",
+    "fullName": "Dai Nguyen",
+    "title": "UI/UX designer with 2+ years of experience.",
+    "avatarUrl": "/assets/imgs/about/team/1.png",
+    "socialNetworks": [
       { "platform": "facebook", "url": "facebook.com" },
       { "platform": "linkedin", "url": "linkedin.com" }
     ]

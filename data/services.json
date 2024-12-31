@@ -1,0 +1,17 @@
+[
+  {
+    "iconUrl": "/assets/common/imgs/icons/bezier-curve-solid.svg",
+    "title": "Strategy and Design",
+    "description": "We provide digital solutions as Website Design,Mobile App Design, Landing Page design, Illustration, Animation increase company’s values"
+  },
+  {
+    "iconUrl": "/assets/common/imgs/icons/code-solid.svg",
+    "title": "Coding and Implementation",
+    "description": "We implement coding with new tech React, Webflow, Wordpress, Shopify, Flutter, iOS, Android and AI-driven applications"
+  },
+  {
+    "iconUrl": "/assets/common/imgs/icons/chart-line-solid.svg",
+    "title": "SEO/Marketing and Advertisement",
+    "description": "Growth your brand with our SEO/Marketing and advertisement solutions. Help increase the traffic, Google 5* rating and more"
+  }
+]

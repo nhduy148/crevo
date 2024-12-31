@@ -26,7 +26,14 @@
     "optional": "Không bắt buộc"
   },
   "Footer": {
+    "title": "Hãy để chúng tôi là giúp sản phẩm của bạn",
+    "subTitle": "phát triển hơn.",
     "location": "Địa chỉ",
+    "detailLocation": "Phan Tây Hồ, Phú Nhuận, TP. Hồ Chí Minh, Việt Nam",
     "inquiry": "Liên hệ"
+  },
+  "About": {
+    "teamMember": "Thành viên",
+    "teamMemberDescription": "Đằng sau mỗi sản phẩm là những con người đầy nhiệt huyết. Hãy làm quen với đội ngũ của chúng tôi"
   }
 }

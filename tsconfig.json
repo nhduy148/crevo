@@ -20,8 +20,10 @@
     ],
     "baseUrl": ".",
     "paths": {
-      "@i18n/*": ["/i18n/*"],
-      "@components/*": ["/app/[locale]/components/*"]
+      "@i18n/*": ["./i18n/*"],
+      "@components/*": ["./app/[locale]/components/*"],
+      "@data/*": ["./data/*"],
+      "@styles/*": ["./styles/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],

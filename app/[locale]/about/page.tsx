@@ -1,14 +1,16 @@
 import React from 'react';
-import TeamData from '../../../data/team.json';
-import MemberCard from '../components/(About)/MemberCard';
+import TeamMember from '@data/team.json';
+import MemberCard from '@components/(About)/MemberCard';
 import Image from 'next/image';
-import ClientCard from '../components/(About)/ClientCard';
+import ClientCard from '@components/(About)/ClientCard';
 import ClientCommentData from '../../../data/clients/comment.json';
 import ClientListData from '../../../data/clients/list.json';
-import BrandCard from '../components/(About)/BrandCard';
+import BrandCard from '@components/(About)/BrandCard';
+import { useTranslations } from 'next-intl';
+import { Link } from '@i18n/routing';
 
 const About = () => {
-  const teamData = TeamData;
+  const t = useTranslations();
   const clientData = ClientCommentData;
   const clientList = ClientListData;
   return (
@@ -136,7 +138,7 @@ const About = () => {
                       we’re on a mission to help you take the next step in your
                       business.
                     </p>
-                    <a href='#0' className='crv-butn mt-40'>
+                    <Link href='#0' className='crv-butn mt-40'>
                       <div className='d-flex'>
                         <span className='text'>Learn More</span>
                         <span className='icon'>
@@ -149,7 +151,7 @@ const About = () => {
                           />
                         </span>
                       </div>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -238,7 +240,7 @@ const About = () => {
                   <div className='text ml-auto'>
                     <div className='d-flex align-items-center'>
                       <p>
-                        Brand Identity, Stragegy & Consult,
+                        Brand Identity, Strategy & Consult,
                         <br />
                         Position, Rebrand
                       </p>
@@ -473,20 +475,17 @@ const About = () => {
           <div className='sec-head mb-80'>
             <div className='row'>
               <div className='col-lg-7'>
-                <h6 className='sub-head'>Team’s Leaders</h6>
+                <h6 className='sub-head'>{t('About.teamMember')}</h6>
               </div>
               <div className='col-lg-4 d-flex align-items-center'>
                 <div className='ml-auto'>
-                  <p>
-                    Each products built by passionate hearts. It’s our team!,
-                    meet our leader
-                  </p>
+                  <p>{t('About.teamMemberDescription')}</p>
                 </div>
               </div>
             </div>
           </div>
-          {teamData.map((e, key) => {
-            return <MemberCard key={key} {...e} />;
+          {TeamMember.map((member) => {
+            return <MemberCard key={member.id} {...member} />;
           })}
         </div>
       </div>

@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react';
 
 const TestimonialsSection = () => {
@@ -20,25 +21,6 @@ const TestimonialsSection = () => {
                   is our reward!
                 </span>
               </h4>
-              {/* Hide Voting review  */}
-              {/* <div className="gl-rate d-flex align-items-center mt-60">
-                      <div className="icon">
-                        <img src="assets/imgs/logo-clutch.svg" alt="" />
-                      </div>
-                      <div className="cont">
-                        <h6>
-                          4.9/5
-                          <span className="stars">
-                            <i className="fas fa-star"></i>
-                            <i className="fas fa-star"></i>
-                            <i className="fas fa-star"></i>
-                            <i className="fas fa-star"></i>
-                            <i className="fas fa-star"></i>
-                          </span>
-                        </h6>
-                        <p>Based on 24 reviews</p>
-                      </div>
-                    </div> */}
             </div>
           </div>
         </div>
@@ -71,7 +53,12 @@ const TestimonialsSection = () => {
                 <div className='info d-flex align-items-center mt-40 pt-30 bord-thin-top-light'>
                   <div>
                     <div className='img-author'>
-                      <img src='/assets/imgs/testim/avatar1.jpg' alt='' />
+                      <Image
+                        src='/assets/imgs/testim/avatar1.jpg'
+                        alt=''
+                        width={1000}
+                        height={1000}
+                      />
                     </div>
                   </div>
                   <div className='info-text'>

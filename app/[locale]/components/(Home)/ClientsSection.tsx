@@ -12,7 +12,12 @@ const ClientsSection = () => {
           <div className='col-lg-2 col-md-4 col-6 md-mb30'>
             <div className='item d-flex align-items-center justify-content-center'>
               <div className='img'>
-                <img src='/assets/imgs/brands/1.svg' alt='' />
+                <Image
+                  src='/assets/imgs/brands/1.svg'
+                  alt=''
+                  width={1000}
+                  height={1000}
+                />
               </div>
             </div>
           </div>
@@ -31,21 +36,36 @@ const ClientsSection = () => {
           <div className='col-lg-2 col-md-4 col-6 md-mb30'>
             <div className='item d-flex align-items-center justify-content-center'>
               <div className='img'>
-                <img src='/assets/imgs/brands/3.svg' alt='' />
+                <Image
+                  src='/assets/imgs/brands/3.svg'
+                  alt=''
+                  width={190}
+                  height={190}
+                />
               </div>
             </div>
           </div>
           <div className='col-lg-2 col-md-4 col-6 sm-mb30'>
             <div className='item d-flex align-items-center justify-content-center'>
               <div className='img'>
-                <img src='/assets/imgs/brands/4.svg' alt='' />
+                <Image
+                  src='/assets/imgs/brands/4.svg'
+                  alt=''
+                  width={190}
+                  height={190}
+                />
               </div>
             </div>
           </div>
           <div className='col-lg-2 col-md-4 col-6 sm-mb30'>
             <div className='item d-flex align-items-center justify-content-center'>
               <div className='img'>
-                <img src='/assets/imgs/brands/5.svg' alt='' />
+                <Image
+                  src='/assets/imgs/brands/5.svg'
+                  alt=''
+                  width={1000}
+                  height={1000}
+                />
               </div>
             </div>
           </div>
@@ -53,7 +73,12 @@ const ClientsSection = () => {
             <div className='item d-flex align-items-center justify-content-center'>
               <div className='cont sub-color'>
                 <div className='icon invert'>
-                  <img src='/assets/common/imgs/icons/global.svg' alt='' />
+                  <Image
+                    src='/assets/common/imgs/icons/global.svg'
+                    alt=''
+                    width={190}
+                    height={190}
+                  />
                 </div>
                 <span>
                   125+ clients

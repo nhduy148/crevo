@@ -34,7 +34,7 @@ const BlogSection = () => {
               <div className='cont mt-30'>
                 <h6>
                   <a href='./blog-details.html'>
-                    Hubfolio agency revolutionizes work with the
+                    Crevo agency revolutionizes work with the
                     <br />
                     power of AI-Driven
                   </a>
